@@ -1,114 +1,87 @@
-Major Project — General Health Prediction using Machine Learning:
+AIML Major Project and Minor Project:
 
-📘 Overview:
+ --Major Project: General Health Prediction from CVD Dataset:
+ 
+Overview:
 
-This project predicts an individual’s general health condition using the CVD (Cardiovascular Disease) dataset.
-It compares multiple machine learning models — Logistic Regression, Support Vector Machine (SVM), and Random Forest — to identify the best-performing classifier for health prediction.
+Objective: Predict a person’s general health condition based on cardiovascular (CVD) data.
 
-🎯 Objectives:
+Dataset: CVD_cleaned.csv
 
-Import and preprocess the CVD dataset
+Tools: Python, Google Colab, Scikit-learn, Pandas, Matplotlib, Seaborn
 
-Split data into training (80%) and testing (20%) sets
+Steps Followed:
 
-Train models using Logistic Regression, SVM, and Random Forest
+-Data loading and exploration
 
-Evaluate models using:
+-Data preprocessing and feature encoding
 
-Accuracy Score
+-Splitting dataset into train (80%) and test (20%)
 
-Classification Report
+Model building using:
 
-Confusion Matrix
+-Support Vector Machine (SVM)
 
-Compare model accuracies using a bar chart visualization
+-Random Forest Classifier
 
-Apply Randomized Grid Search for hyperparameter tuning
+L-ogistic Regression
 
-Predict health status for a single user input (AI system demo)
+-Model evaluation using:
 
-🧠 Tools & Libraries:
+-Accuracy Score
 
-Python
+-Classification Report
 
-Pandas, NumPy
+-Confusion Matrix
 
-Scikit-learn
+-Accuracy comparison via bar chart
 
-Matplotlib, Seaborn
+-Hyperparameter tuning using RandomizedSearchCV
 
-📊 Workflow:
+-Real-time health status prediction for a single input (AI system simulation)
 
-Data Loading & Cleaning
+  --Minor Project: Automobile Dataset Analysis:
 
-Preprocessing and Feature Encoding
+Overview:
 
-Model Training (SVM, Random Forest, Logistic Regression)
+Objective: Perform data visualization and analysis on a car dataset to uncover insights related to horsepower, engine type, and cylinder count.
 
-Evaluation and Visualization
+Tools: Python, Google Colab, Pandas, Seaborn, Matplotlib
 
-Hyperparameter Tuning with RandomizedSearchCV
+Steps Followed:
 
-Single Sample Health Prediction
+-Data cleaning and handling missing values
 
-🏆 Results:
+-Exploratory Data Analysis (EDA) using:
 
-Models achieved high accuracy in predicting health categories.
+1.Bar charts
 
-Random Forest generally performed best after tuning.
+2.Box plots
 
-Visual comparison shows the performance of all models clearly.
+3.Count plots
 
-🚗 Minor Project — Automobile Data Analysis:
+Insights derived on:
 
-📘 Overview:
+-Relationship between horsepower and engine type
 
-A beginner-friendly data analytics project that explores automobile data to uncover useful insights about car types, prices, engine types, and manufacturers.
-It demonstrates data exploration, grouping, aggregation, and visualization techniques using Python.
+-Distribution of cars with different cylinder numbers
 
-🎯 Objectives:
+-Statistical summary of numerical columns
 
-Import and clean the automobile dataset
+Key Libraries:
 
-Handle missing values (if any)
+-pandas
+-numpy
+-matplotlib
+-seaborn
 
-Answer analytical questions:
+Technologies Used:
 
-Which cars have the minimum and maximum price?
+-Python (Google Colab)
 
-How many cars exist with different body styles?
+-Scikit-learn (for ML models and evaluation)
 
-What is the average price by body type (sorted descending)?
+-Pandas & NumPy (for data manipulation)
 
-What is the average price by company (sorted descending)?
-
-Count how many cars have different cylinder numbers.
-
-Create meaningful visualizations for:
-
-Company vs Price
-
-Company vs Cylinders
-
-Body Type vs Price
-
-Body Type vs Cylinders
-
-Engine Type vs Horsepower
-
-🧠 Tools & Libraries
-
-Python
-
-Pandas
-
-Matplotlib, Seaborn
-
-📊 Insights
-
-Identified premium and affordable car segments based on price.
-
-Found that body style and engine type influence car pricing.
-
-Created intuitive visualizations for easy interpretation.
+-Matplotlib & Seaborn (for visualization)
 
